@@ -24,7 +24,7 @@ Partindo do CSV original contendo os CNPJs, supondo que o CSV seja a tabela `emp
 ```sql
 SELECT
     DATE(data_inicial) AS dia,
-    COUNT(*) AS quantidade_ocorrencias
+    COUNT(1) AS quantidade_ocorrencias
 FROM
     empresas
 GROUP BY
