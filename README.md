@@ -26,7 +26,7 @@ SELECT
     *,
     ROW_NUMBER() OVER (ORDER BY COUNT(data_inicial) DESC) AS posicao
 FROM
-    dados_conculta
+    empresas
 GROUP BY
     data_inicial
 ORDER BY
