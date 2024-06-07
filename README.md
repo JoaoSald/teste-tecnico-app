@@ -1,3 +1,4 @@
+
 # Teste Técnico
 
 O objetivo deste teste é validar os conhecimentos e habilidades técnicas e a capacidade de resolver problemas.
@@ -32,3 +33,6 @@ GROUP BY
 ORDER BY
     quantidade_ocorrencias DESC;
 ````
+## Usei o https://pg-sql.com/ para testar a query. Dessa forma, criei a tabela com o nome de "empresas" e inseri os valores do CSV original. Portanto, é possível ver a saída da minha consulta, onde eu faço um count das datas para saber quais parecem mais e no fim faço a classificação.
+
+![WhatsApp Image 2024-06-07 at 13 22 38](https://github.com/JoaoSald/teste-tecnico-app/assets/67446552/efb76067-08fa-4238-a231-c1d27bdb87d3)
