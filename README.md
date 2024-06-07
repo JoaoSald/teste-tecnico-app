@@ -23,12 +23,12 @@ Partindo do CSV original contendo os CNPJs, supondo que o CSV seja a tabela `emp
 
 ```sql
 SELECT
-    *,
-    ROW_NUMBER() OVER (ORDER BY COUNT(data_inicial) DESC) AS posicao
+    DATE(data_inicial) AS dia,
+    COUNT(*) AS quantidade_ocorrencias
 FROM
     empresas
 GROUP BY
-    data_inicial
+    DATE(data_inicial)
 ORDER BY
-    posicao;
+    quantidade_ocorrencias DESC;
 ````
