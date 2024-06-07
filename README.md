@@ -11,8 +11,8 @@ Gerar um arquivo CSV com os seguintes dados:
 - CNPJ
 - Data de abertura
 - Nome
-- Atividade principal (apenas números, removendo pontuações)
-- Atividade secundária (apenas números, removendo pontuações e armazenar apenas a primeira se houver mais de uma)
+- Atividade principal
+- Atividade secundária (armazenar apenas a primeira se houver mais de uma)
 - Última atualização
 - Capital social
 
